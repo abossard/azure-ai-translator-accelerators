@@ -106,17 +106,10 @@ cd azure-ai-translator-accelerators/deployment-scripts/terraform
 ### 2. Set Up Terraform Variables
 Configure the deployment by updating the Terraform variables:
 
-1. Rename the example variables file:
-   ```bash
-   mv terraform.dev-tfvars terraform.tfvars
-   ```
-
-2. Open `terraform.tfvars` in a text editor and update the following fields:
+1. Open `terraform.tfvars` in a text editor and update the following fields:
    ```hcl
    subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Your Azure subscription ID
-   github_owner = "GITHUB_OWNER"  # Your GitHub username or organization
-   github_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # Your GitHub personal access token
-   ```
+    ```
 
 ### 3. Initialize Terraform
 Initialize the Terraform working directory:
