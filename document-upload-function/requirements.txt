@@ -5,3 +5,4 @@
 azure-functions
 azure-storage-blob
 psycopg2-binary==2.9.9
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
