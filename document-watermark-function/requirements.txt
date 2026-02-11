@@ -11,3 +11,4 @@ reportlab~=4.2.2
 docx2pdf
 python-docx
 psycopg2-binary
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
